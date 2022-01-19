@@ -1,0 +1,16 @@
+{
+    "name": "eltresm/hello-composer",
+    "description": "Hola mundo en composer",
+    "authors": [
+        {
+            "name": "Miguel Martinez",
+            "email": "mai.djmai@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "eltresm\\hello\\": "src/"
+        }
+    }
+}
