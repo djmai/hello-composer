@@ -1,13 +1,19 @@
 {
     "name": "eltresm/hello-composer",
     "description": "Hola mundo en composer",
+	"keywords": [],
+	"homepage": "",
+	"license": "MIT",
     "authors": [
         {
             "name": "Miguel Martinez",
-            "email": "mai.djmai@gmail.com"
+            "email": "mai.djmai@gmail.com",
+            "homepage": "https://eltresm.com.mx/"
         }
     ],
-    "require": {},
+    "require": {
+		"php": "^7.3 || ^8.0"
+	},
     "autoload": {
         "psr-4": {
             "eltresm\\hello\\": "src/"
